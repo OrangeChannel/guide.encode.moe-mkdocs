@@ -12,7 +12,14 @@
     {% endif %}
     {% if page %}<li>{{ page.title }}</li>{% endif %}
     <li class="wy-breadcrumbs-aside">
-      {%- block repo %}
+        <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                   <nm>Night Mode</nm>
+            </div>
+      <!-- {%- block repo %}
       {% if page and page.edit_url %}
         <a href="{{ page.edit_url }}"
         {%- if config.repo_name|lower == 'github' %}
@@ -23,7 +30,7 @@
           class="icon icon-gitlab"
         {% endif %}> Edit on {{ config.repo_name }}</a>
       {% endif %}
-      {%- endblock %}
+      {%- endblock %} -->
     </li>
   </ul>
 </div>

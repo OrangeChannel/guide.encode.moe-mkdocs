@@ -4,8 +4,8 @@ If you are interested in supporting
 or contributing to this guide,
 please keep on reading.
 
-**If you are not,
-feel free to browse the other pages.**
+If you are not,
+feel free to browse the other pages.
 
 ---
 
@@ -13,18 +13,14 @@ We are currently still in the early phases of this guide,
 so any form of contribution,
 including just giving feedback,
 is greatly appreciated.
-Please open an issue on our [Github repository][issues]
+Please open an issue on our [Github repository][]
 with your feedback,
 or begin working on a Pull Request.
-You can start editing any page
-by clicking on the
-<kbd><i class="icon icon-github"></i> Edit on GitHub</kbd>
-button in the top bar.
 
 If you are mainly looking for things to work on,
 refer to the [TODO](#todo) section.
 
-[issues]: https://github.com/Irrational-Encoding-Wizardry/guide.encode.moe/issues
+[Github repository]: https://github.com/OrangeChannel/guide.encode.moe-mkdocs
 
 
 ## General

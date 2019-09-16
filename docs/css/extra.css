@@ -1,154 +1,176 @@
-/* this needs some cleaning */
-
 html {
     scroll-behavior: smooth;
 }
+
 .wy-nav-content-wrap {
     background: #090d17;
 }
+
 .wy-nav-content {
     background: #1c1f2b;
-    color: rgb(238, 238, 255);
+    color: #eef;
 }
+
 p {
     margin-bottom: 1em;
     font-size: 14px;
 }
+
 a.current {
     font-weight: 600;
 }
+
 .wy-menu-vertical ul.tocbase li a {
     color: #404040;
 }
+
+h1,
+h2,
+h3 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
 h1 {
-    font-family: "rangeregular";
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.3em;
     font-size: 2em;
 }
-h2 {
+
+h2,
+h3 {
     font-size: 1.6em;
 }
+
 h3 {
     font-size: 1.4em;
 }
-h4 {
-    font-size: 1.2em;
-}
-h5 {
-    font-size: 1.1em;
-}
+
 h2,
 h3,
 h4,
 h5 {
-    font-family: "rangeregular";
     margin-top: 1.8em;
     margin-bottom: 0.8em;
 }
 
-code,
+h4 {
+    font-size: 1.2em;
+}
+
+body,
+h4,
+h5 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+.rst-content code,
 .rst-content tt,
-.rst-content code {
+code {
     white-space: pre-wrap !important;
-    font-family: "range_monomedium", Consolas, monospace;
+    font-family: 'Courier New',Consolas, monospace;
     line-height: 160%;
     font-size: 0.9em;
     border-radius: 4px;
-    border-width: 0px;
+    border-width: 0;
     background: #fff;
     color: #000;
     padding: 2px, 2px, 2px, 2px;
 }
+
 .hljs {
     padding-left: 1em !important;
     padding-top: 1em !important;
     padding-bottom: 1em !important;
 }
-/* sadly, this won't work with the way it generates the HTML code block
-as it doesn't generate the lines separately */
-/* .py.hljs.python::before {
-    counter-increment: line;
-    content: counter(line);
-    display: inline-block;
-    width: 1em
-} */
+
 body {
     text-rendering: optimizeLegibility;
     font-size: 14px;
     image-rendering: optimizeQuality;
-    font-family: "rangeregular";
 }
+
 body a:visited {
     color: #2980b9;
 }
+
 body a:hover {
     text-decoration: underline;
 }
-/* for the 'Fansubbing Guide' text at top left nav */
-.wy-side-nav-search > a,
-.wy-side-nav-search .wy-dropdown > a {
+
+.wy-side-nav-search .wy-dropdown > a,
+.wy-side-nav-search > a {
     color: #fcfcfc !important;
 }
+
 .wy-side-nav-search {
     background: #1c1f2b;
 }
-.wy-nav-content {
+
+.wy-nav-content,
+img,
+img:hover {
     margin-left: auto;
     margin-right: auto;
+}
+
+.wy-nav-content {
     max-width: 90em;
 }
-h1 {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    padding-bottom: 0.3em;
-}
-/* <kbd> styling */
-kbd {
-    background-color: rgb(250, 251, 252);
-    border-radius: 3px;
-    border: rgb(209, 213, 218) solid 1px;
-    box-shadow: rgb(198, 203, 209) -1px -1px 0.1px 0.2px inset;
-    display: inline-block;
-    font-size: 0.9em;
-    font-family: "rangeregular", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400;
-    padding: 0.2em 0.2em;
-    line-height: 1em;
-    vertical-align: middle;
-    color: black;
-}
-/* special keyboard button styling, see index.md */
+
+kbd,
 kbdc {
-    background-color: rgb(250, 251, 252);
-    border-radius: 4px;
-    border: rgb(209, 213, 218) solid 1px;
-    box-shadow: rgb(198, 203, 209) -1px -1px 0.1px 0.2px inset;
-    display: inline-block;
-    font-size: 1em;
-    font-family: "Hasklig", "Lato", "proxima-nova", "Helvetica Neue", Arial,
-        sans-serif;
-    font-variant-caps: unicase;
-    font-weight: 600;
-    padding: 0.2em 0.45em;
+    border: #d1d5da solid 1px;
+    box-shadow: #c6cbd1 -1px -1px 0.1px 0.2px inset;
+    background-color: #fafbfc;
     line-height: 1em;
-    vertical-align: center;
     color: #000;
 }
+
+kbd {
+    border-radius: 3px;
+    font-size: 0.9em;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: 400;
+    padding: 0.2em;
+    vertical-align: middle;
+}
+
+kbd,
+kbdc,
 kbtn {
     display: inline-block;
+}
+
+kbdc {
+    font-variant-caps: unicase;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: 600;
+    padding: 0.2em 0.45em;
+    vertical-align: center;
+}
+
+kbtn {
     border-radius: 2px;
     line-height: normal;
     white-space: nowrap;
     text-align: center;
     cursor: normal;
     font-size: 90%;
-    padding: 4px 8px 5px 8px;
+    padding: 4px 8px 5px;
     color: #404040 !important;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: rgb(243, 246, 246);
+    background-color: #f3f6f6;
     text-decoration: none;
-    font-weight: normal;
-    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
-    box-shadow: 0px 1px 2px -1px rgba(255, 255, 255, 0.5) inset,
-        0px -2px 0px 0px rgba(0, 0, 0, 0.1) inset;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    box-shadow: 0 1px 2px -1px rgba(255, 255, 255, 0.5) inset,
+        0 -2px 0 0 rgba(0, 0, 0, 0.1) inset;
     outline-none: false;
     vertical-align: middle;
     *display: inline;
@@ -163,46 +185,123 @@ kbtn {
     transition: all 0.1s linear;
 }
 
-/* image hovering shadow */
-/* image hovering shadow/zoom */
+img,
 img:hover {
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
     position: relative;
+}
+
+img:hover {
     z-index: 100;
-    /* will dim entire display except picture and sidebar */
-    /* box-shadow: 0px 0px 10000px 10000px rgba(0, 0, 0, 0.4);*/
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.8);
     max-width: 100% !important;
     transition-delay: 300ms;
     transition-duration: 300ms;
     transition-timing-function: ease-in;
-    margin-left: auto;
-    margin-right: auto;
 }
-/* centering images with CSS instead of in-line HTML */
-/* also reverses hovering shadow/zoom transition */
+
 img {
-    position: relative;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     transition-delay: 50ms;
     transition-duration: 150ms;
     transition-timing-function: ease-out;
     max-width: 60% !important;
 }
-@media (max-width: 1240px) {
-    .markdown-section img {
-        max-width: 100%;
-    }
-    img:hover {
-        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-    }
-}
+
 hr {
     color: rgba(255, 255, 255, 0.2);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 .wy-breadcrumbs::after {
     margin-bottom: 1.5em;
+}
+.fail {
+    border-left-color: #ff5252;
+}
+:root {
+    --primary-color: #302ae6;
+    --secondary-color: #536390;
+    --font-color: yellow;
+    --bg-color: #fff;
+    --heading-color: #292922;
+}
+[data-theme="dark"] {
+    --primary-color: #9a97f3;
+    --secondary-color: green;
+    --font-color: green;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+}
+body {
+    background-color: var(--bg-color) !important;
+    color: var(--font-color) !important;
+}
+
+h1 {
+    color: var(--secondary-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+/*Simple css to style it like a toggle switch*/
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+}
+.theme-switch-wrapper em {
+    margin-left: 20px;
+    font-size: 1rem;
+}
+.theme-switch {
+    display: inline-block;
+    height: 2em;
+    position: relative;
+    width: 4.5em;
+    margin-right: 1em;
+}
+nm {
+    color: green;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    background-color: rgb(75, 75, 75);
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+}
+
+.slider:before {
+    background-color: #fff;
+    bottom: 0px;
+    content: "";
+    height: 2em;
+    left: 4px;
+    position: absolute;
+    transition: 0.4s;
+    width: 26px;
+}
+
+input:checked + .slider {
+    background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
 }

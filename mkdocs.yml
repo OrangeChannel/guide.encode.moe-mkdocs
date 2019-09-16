@@ -1,0 +1,56 @@
+site_name: Fansubbing Guide
+site_description: 'WIP Guide for Fansubbing (mostly encoding)'
+site_author: 'Irrational-Encoding-Wizardry'
+
+theme:
+    name: rtd-dropdown
+    # Default settings
+    collapse_by_default: false
+    highlightjs: true
+    # hljs_style:
+    hljs_languages:
+        - yaml
+        - django
+        - python
+        - bash
+        - sh
+    # Development Settings
+    #name: null
+    custom_dir: 'custom_theme/'
+
+repo_url: https://github.com/OrangeChannel/guide.encode.moe-mkdocs
+
+nav:
+    - Overview:
+        - Roles: overview/roles.md
+        - Requirements: overview/requirements.md
+    - Encoding:
+        - Preparation and Necessary Software: encoding/preparation.md
+        - Basics and General Workflow: encoding/basics-and-workflow.md
+        - Recognizing Video Artifacts: encoding/video-artifacts.md
+        - Scenefiltering: encoding/scenefiltering.md
+        - Masking, Limiting, and Related Functions: encoding/masking.md
+        - Descaling: encoding/descaling.md
+        - Resampling: encoding/resampling.md
+        - Video Codecs: encoding/video-codecs.md
+        - Media Containers: encoding/containers.md
+    - Typesetting:
+        - Aegisub and Other Tools: typesetting/aegisub.md
+    - About:
+        - Contribution Guidelines: about/contributing.md
+    - Legal:
+        - Impressum: legal/impressum.md
+        - Privacy Policy: legal/privacy-policy.md
+
+extra_css:
+    - css/fonts.css
+    - css/extra.css
+    - css/vs2015.css
+
+plugins:
+    - search
+
+markdown_extensions:
+  - footnotes
+  - sane_lists
+  - fenced_code

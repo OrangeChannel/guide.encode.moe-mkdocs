@@ -5,7 +5,7 @@ or contributing to this guide,
 please keep on reading.
 
 **If you are not,
-feel free to skip to the next page.**
+feel free to browse the other pages.**
 
 ---
 

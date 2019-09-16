@@ -108,11 +108,12 @@ kbd {
     box-shadow: rgb(198, 203, 209) -1px -1px 0.1px 0.2px inset;
     display: inline-block;
     font-size: 0.9em;
-    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-family: "rangeregular", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     padding: 0.2em 0.2em;
     line-height: 1em;
     vertical-align: middle;
+    color: black;
 }
 /* special keyboard button styling, see index.md */
 kbdc {

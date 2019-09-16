@@ -43,7 +43,6 @@ nav:
         - Privacy Policy: legal/privacy-policy.md
 
 extra_css:
-    - css/fonts.css
     - css/extra.css
     - css/vs2015.css
 

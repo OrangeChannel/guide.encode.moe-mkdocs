@@ -27,7 +27,8 @@ a.current {
 h1,
 h2,
 h3 {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+        "Helvetica Neue", sans-serif;
 }
 
 h1 {
@@ -60,7 +61,8 @@ h4 {
 body,
 h4,
 h5 {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+        "Helvetica Neue", sans-serif;
 }
 
 h5 {
@@ -71,7 +73,7 @@ h5 {
 .rst-content tt,
 code {
     white-space: pre-wrap !important;
-    font-family: 'Courier New',Consolas, monospace;
+    font-family: "Courier New", Consolas, monospace;
     line-height: 160%;
     font-size: 0.9em;
     border-radius: 4px;
@@ -133,7 +135,8 @@ kbdc {
 kbd {
     border-radius: 3px;
     font-size: 0.9em;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+        "Helvetica Neue", sans-serif;
     font-weight: 400;
     padding: 0.2em;
     vertical-align: middle;
@@ -149,7 +152,8 @@ kbdc {
     font-variant-caps: unicase;
     border-radius: 4px;
     font-size: 1em;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+        "Helvetica Neue", sans-serif;
     font-weight: 600;
     padding: 0.2em 0.45em;
     vertical-align: center;
@@ -168,7 +172,8 @@ kbtn {
     background-color: #f3f6f6;
     text-decoration: none;
     font-weight: 400;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+        "Helvetica Neue", sans-serif;
     box-shadow: 0 1px 2px -1px rgba(255, 255, 255, 0.5) inset,
         0 -2px 0 0 rgba(0, 0, 0, 0.1) inset;
     outline-none: false;

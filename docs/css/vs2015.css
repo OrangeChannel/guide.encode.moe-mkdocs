@@ -86,8 +86,8 @@
     font-style: italic;
 }
 
-.hljs-strong {
-    font-weight: bold;
+.hljs-strong, .hljs-keyword {
+    font-weight: normal;
 }
 
 /*.hljs-code {

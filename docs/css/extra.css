@@ -21,7 +21,7 @@ a.current {
     color: #404040;
 }
 h1 {
-    font-family: "range";
+    font-family: "rangeregular";
     font-size: 2em;
 }
 h2 {
@@ -40,7 +40,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: "range";
+    font-family: "rangeregular";
     margin-top: 1.8em;
     margin-bottom: 0.8em;
 }

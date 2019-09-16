@@ -22,6 +22,6 @@ There are navigation buttons at the bottom of each page as well,
 <kbtn><i class='icon icon-circle-arrow-left'></i> Previous</kbtn>
 
 The project is [hosted on Github][github]
-and available to read online at <https://guide.encode.moe/>.
+and available to read online at <https://guideencodemoe-mkdocs.rtfd.io/>.
 
-[github]: https://github.com/Irrational-Encoding-Wizardry/guide.encode.moe/
+[github]: https://github.com/OrangeChannel/guide.encode.moe-mkdocs
